@@ -4,6 +4,7 @@
   "description": "MERN app",
   "main": "index.js",
   "scripts": {
+    "client-install": "npm install --prefix client",
     "start": "node index",
     "server": "nodemon index",
     "client": "npm start --prefix client",
